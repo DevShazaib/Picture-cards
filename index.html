@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      main {
+        
+        padding: 37px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+       body{
+        background-color: gray;
+       } 
+
+       .nav{
+        background-color: rgb(229, 200, 232);
+        text-align: center;
+        padding: 8px;
+        text-shadow: 2px 2px 4px rgb(100, 99, 99);
+        font-weight: bold;
+        color: rgb(19, 107, 179);
+       }
+
+      .card {
+        background-color: white;
+        width: 288px;
+        height: 445px;
+        padding: 0px 0px 20px 0px;
+        margin: 5px;
+        border-radius: 12px;
+      }
+
+      .image {
+        padding: 7px;
+      }
+      .image img {
+        border-radius: 12px;
+      }
+  
+      .capsules {
+        padding: 0px 28px 0px 14px;
+      }
+      .capsules span {
+        border: 1px solid gray;
+        font-family: "Baloo Bhai 2", sans-serif;
+        border-radius: 8px;
+        padding: 0px 6px;
+        color: rgb(155, 155, 155);
+        font-size: 11px;
+        font-weight: bold;
+      }
+      .content {
+        font-family: "Poppins", sans-serif;
+        padding: 3px;
+      }
+      .content p {
+        color: gray;
+      }
+
+      .button {
+        text-align: center;
+      }
+
+      .button button {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(85, 202, 202);
+        border: none;
+        border-radius: 15px;
+        padding: 7px 15px;
+        color: blue;
+        font-weight: bolder;
+        font-size: 10px;
+        cursor: pointer;
+      }
+      h1 {
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        padding: 14px;
+        text-shadow: 2px 2px 4px rgb(102, 99, 99);
+        color: rgb(71, 30, 3);
+        font-size: 25px;
+      }
+      .footer{
+        background-color:rgb(229, 200, 232);
+        padding: 2px;
+      }
+      @media only screen and (max-width: 475px) {
+        main {
+          flex-direction: column;
+          justify-content: center;
+        }
+        }
+        @media only screen and (max-width:920px){
+          h1{
+            justify-content: center;
+            padding-right: 50px;
+          }
+          .nav{
+            justify-content: center;
+            text-align: center;
+            padding-right: 50px;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="nav"><h2>Picture Templates</h2></div>
+    <main>
+      <div class="card">
+        <div class="image">
+          <img
+            width="274px"
+            src="https://media.istockphoto.com/id/1208877516/photo/old-man-and-the-sea.jpg?s=612x612&w=0&k=20&c=uehCCP7wTeem0mD90LXCgbDb5kRwCOcAXq8UB4_Li7M="
+          />
+        </div>
+        <div class="capsules">
+          <span>Nature</span>
+          <span>Lake</span>
+        </div>
+        <div class="content">
+          <h2>Lakes</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+            quibusdam voluptatem eligendi, voluptatibus quae reprehenderit
+            expedita ullam possimus. Fugiat est similique!
+          </p>
+        </div>
+        <div class="button">
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            width="274px"
+            src="https://www.goodnet.org/photos/281x197/36707_hd.jpg"
+          />
+        </div>
+        <div class="capsules">
+          <span>Animals</span>
+          <span>Wildlife</span>
+        </div>
+        <div class="content">
+          <h2>WildLife</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+            quibusdam voluptatem eligendi, voluptatibus quae reprehenderit
+            expedita ullam possimus. Fugiat est similique ipsa!
+          </p>
+        </div>
+        <div class="button">
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img
+            width="274px"
+            src="https://static.toiimg.com/photo/60208969.cms"
+          />
+        </div>
+        <div class="capsules">
+          <span>City</span>
+          <span>Nightlife</span>
+        </div>
+        <div class="content">
+          <h2>NightLife</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+            quibusdam voluptatem eligendi, voluptatibus quae reprehenderit
+            expedita ullam possimus. Fugiat est similique!
+          </p>
+        </div>
+        <div class="button">
+          <button>Read More</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer"><h1>By Shazaib Dev</h1></div>
+  </body>
+</html>
